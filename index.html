@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/regForm.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form method="post" name="regForm" action="" onsubmit="return validateForm()">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+              <p id="fnameValid" class="error"></p>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <p id="lnameValid" class="error"></p>
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
+              <p id="emailValid" class="error"></p>
+
+              <label for="pwd">Password</label>
+              <input type="password" id="pwd" name="pwd" placeholder="Password..">
+              <p id="pwdValid" class="error"></p>
+
+              <label for="confirmpwd">Confirm Password</label>
+              <input type="password" id="confirmpwd" name="confirmPwd" placeholder="Confirm Password..">
+              <p id="confirm" class="error"></p>
+
+            
+              <input type="submit" value="Submit" name="submit">
+            </form>
+          </div>
+    </body>
+</html>
