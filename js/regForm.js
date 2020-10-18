@@ -87,8 +87,8 @@ function validateForm() {
       node.insertBefore(para, node.submit);
     }
 
-    flag = false; //just for show results
-    return flag;
+    /*flag = false; //just for show results
+    return flag;*/
 
 }
 
